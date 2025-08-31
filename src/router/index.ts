@@ -5,7 +5,7 @@ const routes: RouteRecordRaw[] = [
   {
     path: '/',
     name: 'Home',
-    component: () => import('../views/HomePage.vue'),
+    component: () => import('../views/ModernDashboard.vue'),
   },
   {
     path: '/inscription',
@@ -15,7 +15,7 @@ const routes: RouteRecordRaw[] = [
   {
     path: '/secretariat',
     name: 'Secretariat',
-    component: () => import('../views/SecretaryDashboard.vue'),
+    component: () => import('../views/ModernDashboard.vue'),
   },
   {
     path: '/confirmation/:id',
