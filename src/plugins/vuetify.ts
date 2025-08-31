@@ -19,16 +19,42 @@ export default createVuetify({
     themes: {
       light: {
         colors: {
-          primary: '#1976D2',
-          secondary: '#424242',
-          accent: '#82B1FF',
+          primary: '#2563EB',
+          secondary: '#7C3AED',
+          accent: '#06B6D4',
           error: '#FF5252',
-          info: '#2196F3',
-          success: '#4CAF50',
-          warning: '#FFC107',
-          background: '#F5F5F5',
+          info: '#3B82F6',
+          success: '#10B981',
+          warning: '#F59E0B',
+          background: '#F8FAFC',
         },
       },
+      dark: {
+        colors: {
+          primary: '#3B82F6',
+          secondary: '#8B5CF6',
+          accent: '#06B6D4',
+          error: '#EF4444',
+          info: '#3B82F6',
+          success: '#10B981',
+          warning: '#F59E0B',
+          background: '#0F172A',
+        },
+      },
+    },
+  },
+  defaults: {
+    VBtn: {
+      style: 'text-transform: none; font-weight: 600;',
+    },
+    VCard: {
+      style: 'border-radius: 12px;',
+    },
+    VTextField: {
+      variant: 'outlined',
+    },
+    VSelect: {
+      variant: 'outlined',
     },
   },
 })
